@@ -1,0 +1,29 @@
+.bio{
+    background-color: #1E1E23;
+    height: 41.6rem;
+    gap: 2.4rem;    
+}
+
+.bio-title{
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.bio-container img{
+    width: 438px;
+    height: 423px;
+    margin-right: -2rem;
+}
+
+.bio-container .bio-div{
+    width: 550px;
+    height: 400px;
+    padding: 2rem 2.5rem;
+    border-radius: 2rem;
+    background-color: #182953;
+}
+
+.bio-container .bio-div p{
+    font-size: 1.6rem;
+    text-align: justify;
+}

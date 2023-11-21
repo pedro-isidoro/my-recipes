@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+    font-size: 62.5%;
+    color: #FFF;
+    background-color: #1E1E23;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

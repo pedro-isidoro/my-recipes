@@ -1,0 +1,164 @@
+.recipes-foods{
+    height: 50.2rem;
+    background-color: #182953;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-recipes-foods{
+    height: 44.2rem;
+}
+
+.small-recipes-foods .recipe-food{
+    height: 30rem;
+    width: 55%;
+}
+
+/*? H2 */
+.recipes-foods h2{
+    font-size: 2rem;
+}
+
+.recipes-links.mobileAside{
+    display: none;
+}
+
+/*? Aside */
+.recipes-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    gap: 0.6rem;
+    background-color: #1E1E23;
+    transition: 0.3s ease-in-out;
+}
+
+.recipes-links .link-title{
+    width: 6rem;
+    font-size: 1.4rem;
+    color: #62B0F8;
+}
+
+.recipes-links .list{
+    align-items: flex-start;
+}
+
+.recipes-links .list .circle{
+    font-size: 0.2rem;
+    color: #62B0F8;
+    padding-right: 0.3rem;
+}
+
+.recipes-links .link-item{
+    padding: 0.1rem 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.recipes-links .link-item:hover{
+    cursor: pointer;
+    color: #a73744;
+}
+
+.recipes-links .arrow{
+    height: 80%;
+    font-size: 1.4rem;
+    padding-right: 1rem;
+    color: #62B0F8;
+}
+
+.recipes-links .arrow:hover{
+    cursor: pointer;
+}
+
+.recipes-links .arrow.arrow-active{
+    height: 0;
+    padding: 0 0 0 1rem;
+    transform: rotate(180deg);
+}
+
+.recipes-links .breads, .recipes-links .salteds, .recipes-links .sauces, .recipes-links .cakes, .recipes-links .sweets, .recipes-links .fillings{
+    height: 80%;
+    width: 14%;
+    padding: 0 ;
+}
+
+.recipes-links .breads{
+    width: 10%;
+}
+
+.recipes-links .salteds, .recipes-links .sauces{
+    width: 12%;
+}
+
+
+.recipes-links .list{
+    display: none;
+}
+
+.list.list-active{
+    display: flex;
+}
+
+.recipes-links.recipes-links-active{
+    height: 8rem;
+}
+
+/*? Recipe  */
+.recipe-food{
+    height: 36rem;
+    width: 75%;
+    padding: 1rem 2rem;
+    background-color: #1E1E23;
+}
+
+.image-ingredients{
+    height: 100%;
+    width: 40%;
+    padding: 0.4rem 0;
+}
+
+.image-ingredients img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.ingredients-text{
+    height: 80%;
+    gap: 1rem;
+}
+
+.image-ingredients .ingredients-text h4, .name-preparation h4{
+    align-self: center;
+    font-size: 1.6rem;    
+}
+
+.image-ingredients .ingredients-text ul li{
+    width: 100%;
+    font-size: 1rem;
+    align-self: center;
+    border-radius: 1rem;
+    list-style: disc;
+}
+
+.name-preparation{
+    width: 60%;
+    height: 100%;
+    padding: 0.4rem 0.2rem;
+    gap: 1rem;
+}
+
+.name-preparation .preparation{
+    height: 85%;
+}
+
+.name-preparation .preparation p{
+    padding: 0 0.6rem;
+    width: 95%;
+    font-size: 1rem;
+    text-align: justify;
+}
