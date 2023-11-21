@@ -657,6 +657,9 @@
     .big-recipes-foods.recipes-foods .recipe-food{
         height: 83rem;
     }
+    .big-recipes-foods.recipes-foods .recipe-food{
+        background-color: brown;
+    }
 
     .sauces-recipes-foods.small-recipes-foods.recipes-foods{
         height: 49.2rem;
@@ -711,9 +714,6 @@
     
     .big-recipes-foods.recipes-foods .recipe-food{
         height: 89rem;
-    }
-    .big-recipes-foods.recipes-foods .recipe-food{
-        background-color: blue;
     }
 
     .sauces-recipes-foods.small-recipes-foods.recipes-foods{
