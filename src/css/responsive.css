@@ -556,6 +556,9 @@
         font-size: 1.7rem;
     }
 
+    .big-recipes-foods.recipes-foods .recipe-food{
+        background-color: red;
+    }
     .cakes-recipes-foods.small-recipes-foods.recipes-foods{
         height: 62rem;
     }
@@ -570,6 +573,9 @@
         height: 92.2rem;
     }
 
+    .big-recipes-foods.recipes-foods .recipe-food{
+        background-color: blue;
+    }
     .sweet-recipes-foods.big-recipes-foods.recipes-foods{
         height: 100.4rem;
     }
@@ -614,6 +620,9 @@
 
     .cakes-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
         height: 52rem;
+    }
+    .big-recipes-foods.recipes-foods .recipe-food{
+        background-color: yellow;
     }
 }
 
