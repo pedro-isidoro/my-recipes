@@ -71,7 +71,7 @@
     }
 
     .recipes-links.mobileAside .recipe-list{
-        width: 80%;
+        width: 100%;
         padding: 0.6rem 0;
         height: auto;
         text-align: center;
@@ -636,11 +636,11 @@
     }
 
     .recipes-foods{
-        height: 93rem;
+        height: 95rem;
     }
 
     .recipe-food{
-        height: 81rem;
+        height: 83rem;
     }
 
     .recipe-food .image-ingredients img{
@@ -652,11 +652,11 @@
     }
 
     .big-recipes-foods.recipes-foods{
-        height: 103rem;
+        height: 105rem;
     }
     
     .big-recipes-foods.recipes-foods .recipe-food{
-        height: 91rem;
+        height: 93rem;
     }
 
     .small-recipes-foods.recipes-foods{
