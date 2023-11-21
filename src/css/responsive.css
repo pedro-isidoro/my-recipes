@@ -636,11 +636,11 @@
     }
 
     .recipes-foods{
-        height: 89rem;
+        height: 93rem;
     }
 
     .recipe-food{
-        height: 77rem;
+        height: 81rem;
     }
 
     .recipe-food .image-ingredients img{
@@ -652,11 +652,11 @@
     }
 
     .big-recipes-foods.recipes-foods{
-        height: 99rem;
+        height: 103rem;
     }
     
     .big-recipes-foods.recipes-foods .recipe-food{
-        height: 87rem;
+        height: 91rem;
     }
 
     .small-recipes-foods.recipes-foods{
@@ -676,11 +676,11 @@
     }
 
     .cakes-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 71.8rem;
+        height: 73.8rem;
     }
 
     .cakes-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
-        height: 58rem;
+        height: 60rem;
     }
 
     .sweet-recipes-foods.big-recipes-foods.recipes-foods{
