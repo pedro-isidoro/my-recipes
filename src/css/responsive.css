@@ -79,6 +79,7 @@
 
     .recipes-links.mobileAside .recipe-list .recipes-menu .arrow{
         padding: 0 0 0.4rem 0;
+        margin-left: 0.6rem;
     }
     
     .recipes-links.mobileAside .recipe-list .recipes-menu .arrow.arrow-active{
