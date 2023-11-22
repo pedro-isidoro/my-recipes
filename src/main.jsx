@@ -11,6 +11,7 @@ import HamburguerBread from './components/pages/breads/hamburguerBread/Hamburgue
 import CheddarSauce from './components/pages/sauces/CheddarSauce.jsx'
 import RanchSauce from './components/pages/sauces/ranchSauce/RanchSauce.jsx'
 import RoseSauce from './components/pages/sauces/roseSauce/RoseSauce.jsx'
+import WhiteSauce from './components/pages/sauces/whiteSauce/WhiteSauce.jsx'
 
 import ChocolateCake from './components/pages/cakes/ChocolateCake.jsx'
 import ChocolateCupcake from './components/pages/cakes/chocolateCupcake/ChocolateCupcake.jsx'
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
         {
           path: "molhos/molho-rose",
           element: <RoseSauce />,
+        },
+        {
+          path: "molhos/molho-branco",
+          element: <WhiteSauce />,
         },
         {
           path: "bolos/bolo-de-chocolate",

@@ -33,6 +33,10 @@ function MobileSauces(){
                         <i className="circle fa-solid fa-circle"></i>
                         <Link to='/molhos/molho-rose' className='link-item'>Rosé</Link>
                     </li>
+                    <li className='flex-row'>
+                        <i className="circle fa-solid fa-circle"></i>
+                        <Link to='/molhos/molho-branco' className='link-item'>Branco (Autoral)</Link>
+                    </li>
                 </ul>
             </div>
         </aside>
