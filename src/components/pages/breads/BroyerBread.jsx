@@ -1,6 +1,6 @@
 import Aside from '../../aside/Aside';
 import MobileBreads from './MobileBreads';
-import broyerBread from '/src/images/breads/pao-caseiro.jpg'
+import broyerBread from '/src/images/breads/pao-brioche.jpg'
 import Aos from 'aos';
 
 function BroyerBread(){

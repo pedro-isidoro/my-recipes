@@ -78,6 +78,10 @@ function Aside(){
                     </li>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
+                        <Link to='/doces/torta-cookie' className='link-item'>Torta Cookie</Link>
+                    </li>
+                    <li className='flex-row'>
+                        <i className="circle fa-solid fa-circle"></i>
                         <Link to='/doces/torta-do-pica-pau' className='link-item'>Torta do Pica-Pau</Link>
                     </li>
                     <li className='flex-row'>

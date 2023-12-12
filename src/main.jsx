@@ -18,6 +18,7 @@ import ChocolateCupcake from './components/pages/cakes/chocolateCupcake/Chocolat
 import CarrotCupcake from './components/pages/cakes/carrotCupcake/CarrotCupcake.jsx'
 
 import ApplePie from './components/pages/sweets/ApplePie.jsx'
+import CookiePie from './components/pages/sweets/cookiePie/CookiePie.jsx'
 import WoodyWoodpeckerPie from './components/pages/sweets/woodyWoodpeckerPie/WoodyWoodpeckerPie.jsx'
 import RedBerryPie from './components/pages/sweets/redBerryPie/RedBerryPie.jsx'
 import Beignet from './components/pages/sweets/beignet/Beignet.jsx'
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
         {
           path: "doces/torta-de-maca",
           element: <ApplePie />,
+        },
+        {
+          path: "doces/torta-cookie",
+          element: <CookiePie />,
         },
         {
           path: "doces/torta-do-pica-pau",

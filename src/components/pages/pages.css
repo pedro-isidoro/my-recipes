@@ -1,5 +1,5 @@
 .recipes-foods{
-    height: 50.2rem;
+    height: 53.2rem;
     background-color: #182953;
     gap: 2rem;
     display: flex;
@@ -105,7 +105,7 @@
 }
 
 .recipes-links.recipes-links-active{
-    height: 8rem;
+    height: 10rem;
 }
 
 /*? Recipe  */
