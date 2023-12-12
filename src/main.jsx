@@ -16,6 +16,7 @@ import WhiteSauce from './components/pages/sauces/whiteSauce/WhiteSauce.jsx'
 import ChocolateCake from './components/pages/cakes/ChocolateCake.jsx'
 import ChocolateCupcake from './components/pages/cakes/chocolateCupcake/ChocolateCupcake.jsx'
 import CarrotCupcake from './components/pages/cakes/carrotCupcake/CarrotCupcake.jsx'
+import SpongeCake from './components/pages/cakes/spongeCake/SpongeCake.jsx'
 
 import ApplePie from './components/pages/sweets/ApplePie.jsx'
 import CookiePie from './components/pages/sweets/cookiePie/CookiePie.jsx'
@@ -81,6 +82,10 @@ const router = createBrowserRouter([
         {
           path: "bolos/cupcake-de-cenoura",
           element: <CarrotCupcake />,
+        },
+        {
+          path: "bolos/bolo-de-pao-de-lo",
+          element: <SpongeCake />,
         },
         {
           path: "doces/torta-de-maca",

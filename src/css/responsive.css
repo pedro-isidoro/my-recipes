@@ -1,3 +1,9 @@
+@media(max-width: 1150px){
+    .recipes-links.recipes-links-active{
+        height: 11rem;
+    }
+}
+
 @media(max-width: 1024px){
     .header-div{
         height: 3.6rem;
