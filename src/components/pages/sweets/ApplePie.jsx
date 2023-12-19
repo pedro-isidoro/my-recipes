@@ -25,8 +25,8 @@ function ApplePie(){
                             <li>1/2 Suco de 1 Limão</li>
                             <li>Noz Moscada á Gosto</li>
                             <li>300g de Farinha de Trigo</li>
-                            <li> g de Manteiga sem Sal</li>
-                            <li> g de Água gelada</li>
+                            <li>180g de Manteiga sem Sal</li>
+                            <li>60g de Água gelada</li>
                             <li>1 Pitada de Sal</li>
                             <li>2 Colheres de Sopa de Açucar Cristal</li>
                         </ul>

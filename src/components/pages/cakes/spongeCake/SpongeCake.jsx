@@ -28,7 +28,7 @@ function SpongeCake(){
                     <h4>Modo de Preparo</h4>
                     <div className="preparation flex-row">
                         <p className="firt-preparation">
-                        Primeiro unte uma forma de sua escolha com Spray desinformante, manteiga , ou o que você preferir. <br/><br/>
+                        Primeiro unte uma forma de sua escolha com Spray desinformante, manteiga , ou o que você preferir, e no fundo dela coloque uma folha de papel manteiga. E já deixe o forno ligado á 180°C para pré-aquecelo<br/><br/> Em seguida em um bowl de batedeira, ou de vidro, coloque os ovos e o açucar e bata muito bem durante 15 minutos, mais ou menos, até aumentar muito em quantidade e ficar com uma cor bem perto do branco.<br/> Esse processo que fará a massa crescer, pois faz com que a massa fique aerada<br/>Entre com a Essência de baunilha, ou qualquer ingrediente da sua escolha para dar aroma a massa (como raspas de laranja entre outros).<br/><br/>Em seguida Entre com 1/3 da farinha peneirada, e misture com o auxílio de um Fouet com movimentos de baixo para cima, devagar para não perder o ar que colocamos na massa, após incorpora-la repita esse processo com o restante da farinha.<br/><br/> Por fim despeje com cuidado, a massa na forma já preparada, e mande para o forno pré-aquecido.<br/><br/> Para se verificar o ponto do bolo, não se fura com palito, coloque a ponta do seu dedo e aperte de leve a massa, se ela não voltar e você escutar umas bolinhas se estourando, e estiver com as laterais de sua preferência, está pronta sua massa de pão de ló.
                         </p>
                     </div>
                 </div>
