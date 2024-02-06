@@ -9,7 +9,7 @@ function CookiePie(){
         <section className='recipes-foods big-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside />
             <MobileSweets />
-            <h2>Torta de Frutas Vermelhas</h2>
+            <h2>Torta Cookie Recheada</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">
                     <img src={cookiePie} alt="Imagem do pão Briche" />

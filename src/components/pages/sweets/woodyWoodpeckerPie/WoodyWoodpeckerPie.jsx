@@ -9,7 +9,7 @@ function WoodyWoodpeckerPie(){
         <section className='recipes-foods small-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside />
             <MobileSweets />
-            <h2>Torta de Maçã</h2>
+            <h2>Torta do Pica-Pau</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">
                     <img src={woodyWoodpeckerPie} alt="Imagem do pão Briche" />
