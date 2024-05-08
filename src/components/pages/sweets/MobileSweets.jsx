@@ -9,42 +9,58 @@ function menuClicked(){
 }
 
 function MobileSweets(){
-    return(
-        <aside className="recipes-links mobileAside flex-row" id='recipes-links'>
-            <div className='sweets recipe-list flex-column'>
-                <div className='recipes-menu flex-row'>
-                    <h3 className="link-title">Doces</h3>
-                    <i className="fa-solid fa-caret-down arrow" id='sweet-arrow' onClick={menuClicked}></i>
-                </div>
-                <ul className='list flex-row' id='sweet-list'>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/' className='link-item'>Menu</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-de-maca' className='link-item'>Torta de Maça</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-cookie' className='link-item'>Torta Cookie</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-do-pica-pau' className='link-item'>Torta do Pica-Pau</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-de-frutas-vermelhas' className='link-item'>Torta de Frutas Vermelhas</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/carolina-reacheada' className='link-item'>Carolina Reacheada</Link>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-    )
+    return (
+      <aside className="recipes-links mobileAside flex-row" id="recipes-links">
+        <div className="sweets recipe-list flex-column">
+          <div className="recipes-menu flex-row">
+            <h3 className="link-title">Doces</h3>
+            <i
+              className="fa-solid fa-caret-down arrow"
+              id="sweet-arrow"
+              onClick={menuClicked}
+            ></i>
+          </div>
+          <ul className="list flex-row" id="sweet-list">
+            <li className="flex-row">
+              <i className="circle fa-solid fa-circle"></i>
+              <Link to="/" className="link-item">
+                Menu
+              </Link>
+            </li>
+            <li className="flex-row">
+              <i className="circle fa-solid fa-circle"></i>
+              <Link to="/paes" className="link-item">
+                Pães
+              </Link>
+            </li>
+            <li className="flex-row">
+              <i className="circle fa-solid fa-circle"></i>
+              <Link to="/bolos" className="link-item">
+                Bolos
+              </Link>
+            </li>
+            <li className="flex-row">
+              <i className="circle fa-solid fa-circle"></i>
+              <Link to="/recheios" className="link-item">
+                Recheios
+              </Link>
+            </li>
+            <li className="flex-row">
+              <i className="circle fa-solid fa-circle"></i>
+              <Link to="/" className="link-item">
+                Salgados
+              </Link>
+            </li>
+            <li className="flex-row">
+              <i className="circle fa-solid fa-circle"></i>
+              <Link to="/molhos" className="link-item">
+                Molhos
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    );
 }
 
 export default MobileSweets
