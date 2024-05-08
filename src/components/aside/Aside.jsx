@@ -10,15 +10,7 @@ function Aside(){
                 <ul className='list flex-column' id='list-1'>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/paes/pao-brioche' className='link-item'>Brioche</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/paes/pao-pita' className='link-item'>Pita</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/paes/pao-de-hamburguer' className='link-item'>Hambúrguer</Link>
+                        <Link to='/paes' className='link-item'>Pães</Link>
                     </li>
                 </ul>
             </div>
@@ -36,19 +28,7 @@ function Aside(){
                 <ul className='list flex-column' id='list-5'>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/molhos/molho-cheddar' className='link-item'>Cheddar</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/molhos/molho-ranch' className='link-item'>Ranch</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/molhos/molho-rose' className='link-item'>Rosé</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/molhos/molho-branco' className='link-item'>Branco para Pasta</Link>
+                        <Link to='/molhos' className='link-item'>Molhos</Link>
                     </li>
                 </ul>
             </div>
@@ -57,19 +37,7 @@ function Aside(){
                 <ul className='list flex-column' id='list-3'>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/bolos/bolo-de-chocolate' className='link-item'>Chocolate</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/bolos/cupcake-de-chocolate' className='link-item'>Cupcake de Choco.</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/bolos/cupcake-de-cenoura' className='link-item'>Cupcake de Cenoura</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/bolos/bolo-de-pao-de-lo' className='link-item'>Pão de Ló</Link>
+                        <Link to='/bolos' className='link-item'>Bolos</Link>
                     </li>
                 </ul>
             </div>
@@ -78,23 +46,7 @@ function Aside(){
                 <ul className='list flex-column' id='list-4'>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-de-maca' className='link-item'>Torta de Maça</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-cookie' className='link-item'>Torta Cookie</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-do-pica-pau' className='link-item'>Torta do Pica-Pau</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/torta-de-frutas-vermelhas' className='link-item'>Torta de Frutas Vermelhas</Link>
-                    </li>
-                    <li className='flex-row'>
-                        <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/doces/carolina-reacheada' className='link-item'>Carolina Reacheada</Link>
+                        <Link to='/doces' className='link-item'>Doces</Link>
                     </li>
                 </ul>
             </div>
@@ -103,7 +55,7 @@ function Aside(){
                 <ul className='list flex-column' id='list-6'>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
-                        <Link to='/recheios/ninho-com-morango' className='link-item'>Ninho com Morango</Link>
+                        <Link to='/recheios' className='link-item'>Recheios</Link>
                     </li>
                     <li className='flex-row'>
                         <i className="circle fa-solid fa-circle"></i>
