@@ -6,7 +6,7 @@ import Aos from 'aos';
 function RanchSauce(){
     Aos.init();
     return(
-        <section className='recipes-foods small-recipes-foods sauces-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods sauces-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside/>
             <MobileSauces />
             <h2>Molho Cheddar</h2>

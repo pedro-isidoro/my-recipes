@@ -7,7 +7,7 @@ import Aos from 'aos';
 function ChocolateCake(){
     Aos.init();
     return(
-        <section className='recipes-foods small-recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside/>
             <MobileCakes />
             <h2>Bolo de Chocolate</h2>

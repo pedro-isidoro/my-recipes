@@ -6,7 +6,7 @@ import Aos from 'aos';
 function RedBerryPie(){
     Aos.init();
     return(
-        <section className='recipes-foods big-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside />
             <MobileSweets />
             <h2>Torta de Frutas Vermelhas</h2>

@@ -7,7 +7,7 @@ import Aos from 'aos';
 function CarrotCupcake(){
     Aos.init();
     return(
-        <section className='recipes-foods small-recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside/>
             <MobileCakes />
             <h2>Cupcake de Cenoura</h2>

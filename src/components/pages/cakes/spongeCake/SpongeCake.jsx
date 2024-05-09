@@ -7,10 +7,10 @@ import Aos from 'aos';
 function SpongeCake(){
     Aos.init();
     return(
-        <section className='recipes-foods big-recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside/>
             <MobileCakes />
-            <h2>Bolo de Chocolate</h2>
+            <h2>Bolo Pão de Ló</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">
                     <img src={spongeCake} alt="Imagem do pão Briche" />

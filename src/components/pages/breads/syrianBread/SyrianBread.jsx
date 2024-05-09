@@ -6,7 +6,7 @@ import Aos from 'aos';
 function SyrianBread(){
     Aos.init();
     return(
-        <section className='recipes-foods big-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside/>
             <MobileBreads/>
             <h2>Pão Pita (Pão Sírio)</h2>

@@ -6,7 +6,7 @@ import Aos from 'aos';
 function StrawberryNido(){
     Aos.init();
     return(
-        <section className='recipes-foods small-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
             <Aside/>
             <MobileFillings />
             <h2>Ninho com Morango</h2>
