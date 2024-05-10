@@ -1,14 +1,12 @@
 import Aside from '../../../aside/Aside';
-import MobileSauces from '../MobileSauces';
+// import MobileSauces from '../MobileSauces';
 import ranchSauce from '/src/images/sauces/molho-ranch.jpg'
-import Aos from 'aos';
 
 function RanchSauce(){
-    Aos.init();
     return(
-        <section className='recipes-foods sauces-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods sauces-recipes-foods' id='recipes'>
             <Aside/>
-            <MobileSauces />
+            {/* <MobileSauces /> */}
             <h2>Molho Cheddar</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

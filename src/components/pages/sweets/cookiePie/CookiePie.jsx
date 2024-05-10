@@ -1,14 +1,12 @@
 import Aside from '/src/components/aside/Aside';
-import MobileSweets from '../MobileSweets';
+// import MobileSweets from '../MobileSweets';
 import cookiePie from '/src/images/sweets/torta-cookie.jpg'
-import Aos from 'aos';
 
 function CookiePie(){
-    Aos.init();
     return(
-        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes'>
             <Aside />
-            <MobileSweets />
+            {/* <MobileSweets /> */}
             <h2>Torta Cookie Recheada</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

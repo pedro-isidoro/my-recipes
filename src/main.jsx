@@ -4,11 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './components/app/App.jsx'
 import Recipes from './components/recipes/Recipes.jsx'
 
-import CheddarSauce from './components/pages/sauces/CheddarSauce.jsx'
-import ApplePie from './components/pages/sweets/ApplePie.jsx'
-import Beignet from './components/pages/sweets/beignet/Beignet.jsx'
-import StrawberryNido from './components/pages/fillings/StrawberryNido.jsx'
-
 import 'aos/dist/aos.css';
 import './css/reset.css'
 import './css/index.css'

@@ -1,14 +1,12 @@
 import Aside from '../../../aside/Aside';
-import MobileSauces from '../MobileSauces';
+// import MobileSauces from '../MobileSauces';
 import whiteSauce from '/src/images/sauces/molho-branco.jpg'
-import Aos from 'aos';
 
 function WhiteSauce(){
-    Aos.init();
     return(
-        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes'>
             <Aside/>
-            <MobileSauces />
+            {/* <MobileSauces /> */}
             <h2>Molho Branco</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

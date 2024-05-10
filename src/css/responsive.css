@@ -35,23 +35,6 @@
         height: 40rem;
     }
 
-    .small-recipes-foods.recipes-foods{
-        height: 40rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 30rem;
-        width: 75%;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 51rem;
-    }
-
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 41rem;
-    }
-
     .recipes-foods{
         height: 42.2rem;
         gap: 1rem;
@@ -63,7 +46,7 @@
         padding: 1rem;
     }
 
-    .recipes-foods .recipes-links.mobileAside{
+    /* .recipes-foods .recipes-links.mobileAside{
         margin-bottom: 1rem;
     }
 
@@ -90,7 +73,7 @@
     
     .recipes-links.mobileAside .recipe-list .recipes-menu .arrow.arrow-active{
         padding: 0 0 1rem 0;
-    }
+    } */
 
     .link-title{
         margin-bottom: 0.4rem;
@@ -172,30 +155,13 @@
         height: 42.2rem;
     }
 
-    .small-recipes-foods.recipes-foods{
-        height: 39.6rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 30rem;
-        width: 85%;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 54.2rem;
-    }
-
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 44rem;
-    }
-
-    .recipes-foods .recipes-links.mobileAside{
+    /* .recipes-foods .recipes-links.mobileAside{
         margin-bottom: 1rem;
     }
 
     .recipes-links.mobileAside .breads{
         gap: 0.4rem;
-    }
+    } */
 
     .footer .nets .net{
         font-size: 1.5rem;
@@ -289,7 +255,7 @@
         width: 40%;
     }
 
-    .recipe-food .name-preparation, .big-recipes-foods.recipes-foods .recipe-food, .small-recipes-foods.recipes-foods .recipe-food{
+    .recipe-food .name-preparation{
         width: 95%;
     }
 
@@ -301,22 +267,6 @@
         height: 42rem;
         gap: 1rem;
         padding: 2rem 1rem;
-    }
-
-    .small-recipes-foods.recipes-foods{
-        height: 45.6rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 36rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 59rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 49.2rem;
     }
 }
 
@@ -334,22 +284,6 @@
         gap: 1rem;
         padding: 2rem 1rem;
     }
-
-    .small-recipes-foods.recipes-foods{
-        height: 49.6rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 38rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 61rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 50rem;
-    }
 }
 
 @media(max-width: 769px){
@@ -357,16 +291,8 @@
         height: 52.2rem;
     }
 
-    .recipe-food, .big-recipes-foods.recipes-foods .recipe-food, .small-recipes-foods.recipes-foods .recipe-food{
+    .recipe-food{
         width: 100%;
-    }
-
-    .small-recipes-foods.recipes-foods{
-        height: 50rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 60.2rem;
     }
 }
 
@@ -392,22 +318,6 @@
     .recipe-food{
         height: 61rem;
     }
-
-    .small-recipes-foods.recipes-foods{
-        height: 63rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 51rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 82rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 70rem;
-    }
 }
 
 @media(max-width: 600px){
@@ -417,22 +327,6 @@
 
     .recipe-food{
         height: 64rem;
-    }
-
-    .small-recipes-foods.recipes-foods{
-        height: 64rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 52rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 81.2rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 71rem;
     }
 }
 
@@ -486,22 +380,6 @@
     .recipe-food{
         height: 66rem;
     }
-
-    .small-recipes-foods.recipes-foods{
-        height: 66rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 54rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 82.2rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 72rem;
-    }
 }
 
 @media(max-width: 426px){
@@ -520,34 +398,6 @@
     .recipe-food{
         height: 68rem;
     }
-
-    .small-recipes-foods.recipes-foods{
-        height: 74.2rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 60rem;
-    }
-    
-    .big-recipes-foods.recipes-foods{
-        height: 98.2rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 81rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food .name-preparation{
-        gap: 3rem;
-    }
-
-    .sauces-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 49.6rem;
-    }
-
-    .sauces-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
-        height: 40rem;
-    }
 }
 
 @media(max-width: 412px){
@@ -561,14 +411,6 @@
 
     .recipes-foods h2{
         font-size: 1.7rem;
-    }
-
-    .cakes-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 62rem;
-    }
-
-    .cakes-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
-        height: 50rem;
     }
 }
 
@@ -605,22 +447,6 @@
     
     .sweet-recipes-foods.big-recipes-foods.recipes-foods .recipe-food{
         height: 90rem;
-    }
-
-    .small-recipes-foods.recipes-foods{
-        height: 76.2rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 60rem;
-    }
-
-    .cakes-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 66.2rem;
-    }
-
-    .cakes-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
-        height: 52rem;
     }
 }
 /* Meu cell é entre 363 e 358 */
@@ -665,38 +491,6 @@
     .big-recipes-foods.recipes-foods .recipe-food{
         height: 93rem;
     }
-
-    .small-recipes-foods.recipes-foods{
-        height: 82rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 66rem;
-    }
-
-    .sauces-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 49.2rem;
-    }
-
-    .sauces-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
-        height: 40rem;
-    }
-
-    .cakes-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 73.8rem;
-    }
-
-    .cakes-recipes-foods.small-recipes-foods.recipes-foods .recipe-food{
-        height: 60rem;
-    }
-
-    .sweet-recipes-foods.big-recipes-foods.recipes-foods{
-        height: 112rem;
-    }
-    
-    .sweet-recipes-foods.big-recipes-foods.recipes-foods .recipe-food{
-        height: 97rem;
-    }
 }
 
 @media(max-width: 350px){
@@ -706,32 +500,6 @@
 
     .recipe-food{
         height: 77rem;
-    }
-
-    .big-recipes-foods.recipes-foods{
-        height: 96.8rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 85rem;
-    }
-
-    .small-recipes-foods.recipes-foods{
-        height: 76rem;
-    }
-}
-
-@media(max-width: 332px){
-    .big-recipes-foods.recipes-foods{
-        height: 100.8rem;
-    }
-    
-    .big-recipes-foods.recipes-foods .recipe-food{
-        height: 89rem;
-    }
-
-    .sauces-recipes-foods.small-recipes-foods.recipes-foods{
-        height: 51.4rem;
     }
 }
 
@@ -755,26 +523,6 @@
         height: 260px;
         gap: 0.4rem;
         padding: 0 2rem 3rem 0.2rem;
-    }
-
-    .big-recipes-foods.recipes-foods .recipe-food .ingredients-text{
-        padding: 0 0.4rem;
-    }
-
-    .small-recipes-foods.recipes-foods{
-        height: 80rem;
-    }
-
-    .small-recipes-foods.recipes-foods .recipe-food{
-        height: 64rem;
-    }
-
-    .sweet-recipes-foods.big-recipes-foods.recipes-foods{
-        height: 110rem;
-    }
-    
-    .sweet-recipes-foods.big-recipes-foods.recipes-foods .recipe-food{
-        height: 94rem;
     }
 }
 

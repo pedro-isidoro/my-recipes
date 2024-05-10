@@ -1,14 +1,12 @@
 import Aside from '../../aside/Aside';
-import MobileFillings from './MobileFillings';
+// import MobileFillings from './MobileFillings';
 import strawberryNido from '/src/images/fillings/ninho-com-morango.jpg'
-import Aos from 'aos';
 
 function StrawberryNido(){
-    Aos.init();
     return(
-        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes'>
             <Aside/>
-            <MobileFillings />
+            {/* <MobileFillings /> */}
             <h2>Ninho com Morango</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

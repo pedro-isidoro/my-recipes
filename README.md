@@ -18,10 +18,12 @@
 ### Bibliotecas
 - React + Vite
 - React Rounter
+- Swiper
 
 ## Desafios
 - A priori como qualquer projeto um código limpo e compreensível.
 - Sua responsividade nos diversos tipos de tela.
+- Usar corretamento a biblioteca Swiper.js e o scroll 
 
 ## Soluções
 

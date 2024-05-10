@@ -1,15 +1,13 @@
 import Aside from '/src/components/aside/Aside';
-import MobileCakes from '../MobileCakes';
+// import MobileCakes from '../MobileCakes';
 import chocolateCupcake from '/src/images/cakes/cupcake-de-chocolate.webp'
-import Aos from 'aos';
 
 
 function ChocolateCupcake(){
-    Aos.init();
     return(
-        <section className='recipes-foods cakes-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods cakes-recipes-foods' id='recipes'>
             <Aside/>
-            <MobileCakes />
+            {/* <MobileCakes /> */}
             <h2>Cupcake de Chocolate</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

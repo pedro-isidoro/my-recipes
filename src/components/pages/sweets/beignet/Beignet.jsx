@@ -1,14 +1,12 @@
 import Aside from '/src/components/aside/Aside';
-import MobileSweets from '../MobileSweets';
+// import MobileSweets from '../MobileSweets';
 import beignet from '/src/images/sweets/carolina-recheada.jpg'
-import Aos from 'aos';
 
 function Beignet(){
-    Aos.init();
     return(
-        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes'>
             <Aside />
-            <MobileSweets />
+            {/* <MobileSweets /> */}
             <h2>Carolina Reacheada</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

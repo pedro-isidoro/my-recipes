@@ -1,14 +1,12 @@
 import Aside from '/src/components/aside/Aside';
-import MobileSweets from '../MobileSweets';
+// import MobileSweets from '../MobileSweets';
 import redBerryPie from '/src/images/sweets/torta-de-frutas-vermelhas.jpg'
-import Aos from 'aos';
 
 function RedBerryPie(){
-    Aos.init();
     return(
-        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes'>
             <Aside />
-            <MobileSweets />
+            {/* <MobileSweets /> */}
             <h2>Torta de Frutas Vermelhas</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

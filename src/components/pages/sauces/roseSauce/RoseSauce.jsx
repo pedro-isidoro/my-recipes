@@ -1,14 +1,12 @@
 import Aside from '../../../aside/Aside';
-import MobileSauces from '../MobileSauces';
+// import MobileSauces from '../MobileSauces';
 import roseSauce from '/src/images/sauces/molho-rose.webp'
-import Aos from 'aos';
 
 function RoseSauce(){
-    Aos.init();
     return(
-        <section className='recipes-foods sauces-recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods sauces-recipes-foods' id='recipes'>
             <Aside/>
-            <MobileSauces />
+            {/* <MobileSauces /> */}
             <h2>Molho Rosé</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

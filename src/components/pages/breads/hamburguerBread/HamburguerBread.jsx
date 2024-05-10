@@ -1,14 +1,12 @@
 import Aside from '../../../aside/Aside';
-import MobileBreads from '../MobileBreads';
+// import MobileBreads from '../MobileBreads';
 import hamburguerBread from '/src/images/breads/pao-de-hamburguer.jpg'
-import Aos from 'aos';
 
 function HamburguerBread(){
-    Aos.init();
     return(
-        <section className='recipes-foods' id='recipes' data-aos="zoom-in" data-aos-duration="900">
+        <section className='recipes-foods' id='recipes'>
             <Aside/>
-            <MobileBreads/>
+            {/* <MobileBreads/> */}
             <h2>Pão de Hambúrguer</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">
