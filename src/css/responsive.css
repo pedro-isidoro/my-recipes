@@ -387,7 +387,7 @@
         height: 50%;
     }
 }
-/* Meu cell é entre 363 e 358 */
+
 @media(max-width: 363px){
     .bio-container .bio-div{
         width: 290px;
@@ -405,20 +405,17 @@
         gap: 0.8rem;
         padding: 0 2rem 3rem 1rem;
     }
-    .recipes-foods {
-        background-color: red;
-    }
 
     .recipes-foods h2{
         font-size: 1.6rem;
     }
 }
-
-@media(max-width: 360px){
+/* Meu cell é entre 360 e 358 */
+/* @media(max-width: 360px){
     .recipes-foods {
         background-color: rgb(66, 137, 182);
     }
-}
+} */
 
 @media(max-width: 324px){
     .bio-container .bio-div{
