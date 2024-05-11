@@ -414,7 +414,7 @@
     }
 }
 
-@media(max-width: 354px){
+@media(max-width: 360px){
     .recipes-foods {
         background-color: rgb(66, 137, 182);
     }

@@ -1,12 +1,10 @@
 import Aside from '/src/components/aside/Aside';
-// import MobileSweets from '../MobileSweets';
 import woodyWoodpeckerPie from '/src/images/sweets/torta-do-pica-pau.jpg'
 
 function WoodyWoodpeckerPie(){
     return(
         <section className='recipes-foods' id='recipes'>
             <Aside />
-            {/* <MobileSweets /> */}
             <h2>Torta do Pica-Pau</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

@@ -1,12 +1,10 @@
 import Aside from '../../../aside/Aside';
-// import MobileSauces from '../MobileSauces';
 import ranchSauce from '/src/images/sauces/molho-ranch.jpg'
 
 function RanchSauce(){
     return(
         <section className='recipes-foods sauces-recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileSauces /> */}
             <h2>Molho Cheddar</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

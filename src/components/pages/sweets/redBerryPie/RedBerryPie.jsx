@@ -1,12 +1,10 @@
 import Aside from '/src/components/aside/Aside';
-// import MobileSweets from '../MobileSweets';
 import redBerryPie from '/src/images/sweets/torta-de-frutas-vermelhas.jpg'
 
 function RedBerryPie(){
     return(
         <section className='recipes-foods' id='recipes'>
             <Aside />
-            {/* <MobileSweets /> */}
             <h2>Torta de Frutas Vermelhas</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

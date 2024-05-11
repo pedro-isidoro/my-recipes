@@ -1,12 +1,10 @@
 import Aside from '../../aside/Aside';
-// import MobileBreads from './MobileBreads';
 import broyerBread from '/src/images/breads/pao-brioche.jpg'
 
 function BroyerBread(){
     return(
         <section className='recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileBreads/> */}
             <h2>Pão Brioche</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

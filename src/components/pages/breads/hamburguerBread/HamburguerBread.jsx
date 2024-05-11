@@ -1,12 +1,10 @@
 import Aside from '../../../aside/Aside';
-// import MobileBreads from '../MobileBreads';
 import hamburguerBread from '/src/images/breads/pao-de-hamburguer.jpg'
 
 function HamburguerBread(){
     return(
         <section className='recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileBreads/> */}
             <h2>Pão de Hambúrguer</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

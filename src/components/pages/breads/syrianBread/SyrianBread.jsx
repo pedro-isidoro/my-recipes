@@ -1,12 +1,10 @@
 import Aside from '../../../aside/Aside';
-// import MobileBreads from '../MobileBreads';
 import syrianBread from '/src/images/breads/pao-pita.jpg'
 
 function SyrianBread(){
     return(
         <section className='recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileBreads/> */}
             <h2>Pão Pita (Pão Sírio)</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

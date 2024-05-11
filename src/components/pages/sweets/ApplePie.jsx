@@ -1,12 +1,10 @@
 import Aside from '../../aside/Aside';
-// import MobileSweets from './MobileSweets';
 import applePie from '/src/images/sweets/torta-de-maca.jpg'
 
 function ApplePie(){
     return(
         <section className='recipes-foods sweet-recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileSweets /> */}
             <h2>Torta de Maçã</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

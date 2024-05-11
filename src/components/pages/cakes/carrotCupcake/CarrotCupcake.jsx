@@ -1,5 +1,4 @@
 import Aside from '/src/components/aside/Aside';
-// import MobileCakes from '../MobileCakes';
 import carrotCupcake from '/src/images/cakes/cupcake-de-cenoura.png'
 
 
@@ -7,7 +6,6 @@ function CarrotCupcake(){
     return(
         <section className='recipes-foods cakes-recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileCakes /> */}
             <h2>Cupcake de Cenoura</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

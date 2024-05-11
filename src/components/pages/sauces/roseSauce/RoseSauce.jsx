@@ -1,12 +1,10 @@
 import Aside from '../../../aside/Aside';
-// import MobileSauces from '../MobileSauces';
 import roseSauce from '/src/images/sauces/molho-rose.webp'
 
 function RoseSauce(){
     return(
         <section className='recipes-foods sauces-recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileSauces /> */}
             <h2>Molho Rosé</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">

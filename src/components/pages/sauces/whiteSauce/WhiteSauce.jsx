@@ -1,12 +1,10 @@
 import Aside from '../../../aside/Aside';
-// import MobileSauces from '../MobileSauces';
 import whiteSauce from '/src/images/sauces/molho-branco.jpg'
 
 function WhiteSauce(){
     return(
         <section className='recipes-foods' id='recipes'>
             <Aside/>
-            {/* <MobileSauces /> */}
             <h2>Molho Branco</h2>
             <div className="recipe-food flex-row">
                 <div className="image-ingredients flex-column">
