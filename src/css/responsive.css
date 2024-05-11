@@ -414,7 +414,13 @@
     }
 }
 
-@media(max-width: 326px){
+@media(max-width: 354px){
+    .recipes-foods {
+        background-color: rgb(66, 137, 182);
+    }
+}
+
+@media(max-width: 324px){
     .bio-container .bio-div{
         width: 250px;
         height: 160px;
@@ -431,7 +437,29 @@
         gap: 0.4rem;
         padding: 0 2rem 3rem 0.2rem;
     }
-}
 
-@media(max-width: 321px){
+    .recipes-foods {
+        height: 56rem;
+    }
+
+    .recipes-links {
+        height: 10rem;
+    }
+
+    .recipe-food{
+        height: 70%;
+    }
+
+    .recipe-food .image-ingredients {
+        height: 50%;
+    }
+
+    .ingredients-text {
+        height: 45%;
+        padding: 0 1rem 0 0;
+    }
+
+    .recipe-food .name-preparation {
+        height: 50%;
+    }
 }
